@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    background-color: #1f1f1f;
+}
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+background-image: url(bg.jpg);
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 85vh;
+display:  flex;
+align-items: center;
+}
+
+
+
+.menu{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+.ul-nav a{
+    text-decoration: none;
+}
+
+.menu .navbar ul a {
+font-size: 25px;
+padding: 20px;
+color: #ffff;
+display: block;
+}
+
+
+.menu .navbar ul li a:hover {
+    color: #cf2d3a;
+}
+#menu{
+    display: none;
+
+}
+.menu-icono {
+    width: 25px;
+
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+
+}
+.header-content{
+    margin-top: 90px !important;
+}
+
+
+.header-txt {
+    text-align: center ;
+    margin-bottom: 15vh;
+}
+.header-txt h1, span, h3 {
+    font-size: 90px;
+    letter-spacing: 5px;
+    color: #cf2d3a;
+    margin-bottom: 15px;
+
+}
+.header-txt span{
+    font-size: 25px;
+}
+.header-txt p {
+    color: #ffffff;
+    padding: 0 250px;
+    margin: 25px 0;
+    font-size: 25px;
+
+
+}
+.btn-1 {
+    display: inline-block;
+    padding: 11px 25px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'bebas Neue' , cursive;
+    margin: 25px 0;
+
+
+}
+.btn-1:hover{
+    background-color: #b4272e;
+}
+.header-dir{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.dir{
+    font-size: 18px;
+    color: #8a8a8a;
+
+}
+.dir p{
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.welcome {
+    display: flex;
+}
+.welcome-1 {
+    background-image: url(a1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    
+}
+.welcome-2  h2{
+    color: #8a8a8a;
+    margin-bottom: 40px;
+}
+.welcome-2 {
+
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+
+}
+h2{
+    font-size: 50px;
+    line-height: 100px;
+    color: #b4272e;
+    text-transform:  uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+}
+p{
+    font-size: 25px;
+    color: #ffffff;
+    margin: 25px 0;
+    font-weight: 500;
+}
+
+.services-txt p{
+    color: #070707;
+}
+.services {
+    padding: 100px;
+    text-align: center;    
+}
+.services-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    border: 1px solid #cf2d3a;
+    width: 80px;
+}
+
+.services-txt p{
+    padding: 50px 150px;
+}
+
+.services-1 {
+    background-color: #070707;
+    padding: 35px 35px;
+    margin: 0 90px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.icon-services{
+    width: 25px;
+    margin-bottom: 30px;
+}
+
+.img-container{
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 45px;
+}
+.img-container:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.img-container:active{
+    transform: scale(1);
+}
+
+.container1{
+    margin-top: 3%;
+    transform: translateX(-25px);
+    margin-bottom: 70px;
+}
+
+.services-1 h3{
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.services-1 a{
+    color: #cf2d3a;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.prices {
+    display: flex;
+}
+.prices-1{
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+}
+.prices-1 h2{
+    color: #8a8a8a;
+    margin-bottom: 30px;
+}
+table{
+    margin: 50px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #afafaf;
+    margin-bottom: 20px;
+}
+th{
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+td{
+    color: #cf2d3a;
+    transform: translateY(20px);
+}
+
+
+.prices-2 {
+    background-image: url(a2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.bx{
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.footer-bg{
+    background-image: url(bg-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+
+}
+.footer-bg h2{
+    color: #8a8a8a;
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-1 {
+    margin-bottom: 15px;
+}
+
+.campo {
+    margin: 5px;
+    padding: 20px 15px;
+    width: 250px;
+    background-color: #191919;
+    border: 1px solid #cf2d3a;
+    outline: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+
+textarea{
+    width: 520px !important;
+}
+.footer-txt{
+    text-align: center;
+    padding: 10px;
+    background-color: #070707;
+}
+footer span{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .header-txt h1{
+        font-size: 50px;
+    }
+    .header-txt span{
+        font-size: 20px;
+    }
+    .header-txt p{
+        padding: 0 50px;
+        font-size: 20px;
+    }
+    .btn-1{
+        font-size: 15px;
+    }
+    .header-dir{
+        flex-direction: column;
+    }
+    .dir{
+        margin-bottom: 20px;
+    }
+    .welcome{
+        flex-direction: column;
+    }
+    .welcome-1{
+        width: 100%;
+    }
+    .welcome-2{
+        width: 100%;
+        padding: 50px;
+    }
+    .services{
+        padding: 50px;
+    }
+    .services-1{
+        width: 90%;
+        transform: translateX(-56px);
+        margin-bottom: 25px;
+    }
+    .services-2{
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .services-3{
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .services-txt p{
+        padding: 20px;
+    }
+    .prices-1{
+        padding: 50px;
+    }
+    .prices-2{
+        width: 100%;
+    }
+    .prices-1 h2{
+        margin-bottom: 20px;
+    }
+    table{
+        margin: 20px 0;
+    }
+    .footer-bg{
+        padding: 50px;
+    }
+    .footer-bg h2{
+        font-size: 25px;
+    }
+    form{
+        padding: 20px;
+    }
+    .campo{
+        width: 200px;
+    }
+    textarea{
+        width: 400px !important;
+    }
+    .footer-txt{
+        padding: 5px;
+    }
+    footer span{
+        font-size: 15px;
+    }
+    
+}
