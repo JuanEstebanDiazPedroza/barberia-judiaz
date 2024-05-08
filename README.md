@@ -1,2 +1,3 @@
 # barberia-judiaz
-trabajo final
+proyecto barberia Judiaz
+
