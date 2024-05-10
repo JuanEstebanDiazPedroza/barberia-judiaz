@@ -13,7 +13,7 @@ function toggleInfo(serviceNumber) {
 // Función para descargar el archivo
 function downloadFile() {
    //variable var
-    var fileName = 'Catalogo_Judiaz.pdf'; // Nombre del archivo a descargar
+    var fileName = 'img/Catalogo_Judiaz.pdf'; // Nombre del archivo a descargar
 
     // Crea un elemento 'a' en el DOM
     var a = document.createElement('a');

@@ -20,7 +20,7 @@ body{
 }
 
 .header{
-background-image: url(bg.jpg);
+background-image: url(img/bg.jpg);
 background-position: center top;
 background-repeat: no-repeat;
 background-size: cover;
@@ -131,7 +131,7 @@ display: block;
     display: flex;
 }
 .welcome-1 {
-    background-image: url(a1.jpg);
+    background-image: url(img/a1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -266,7 +266,7 @@ td{
 
 
 .prices-2 {
-    background-image: url(a2.jpg);
+    background-image: url(img/a2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -278,7 +278,7 @@ td{
     margin-top: 25px;
 }
 .footer-bg{
-    background-image: url(bg-2.png);
+    background-image: url(img/bg-2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -328,6 +328,10 @@ footer span{
 }
 
 @media screen and (max-width: 768px){
+    .container1{
+        flex-direction: column;
+        transform: translateX(2px);
+    }
     .header-txt h1{
         font-size: 50px;
     }
